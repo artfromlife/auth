@@ -35,7 +35,8 @@ expire_time
 table auth
 auth_id
 auth_group_name
-auth_desc
+auth_description
+creater
 ```
 ```shell
 table login_log
