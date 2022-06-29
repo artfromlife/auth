@@ -19,7 +19,7 @@ delete_flag
 table user_auth
 
 id
-uers_id
+user_id
 auth_id
 ```
 ```shell
@@ -32,11 +32,13 @@ refresh_token
 expire_time
 ```
 ```shell
+table auth
 auth_id
-group_name
-group_auth
+auth_group_name
+auth_desc
 ```
 ```shell
+table login_log
 id
 user_id
 ip
